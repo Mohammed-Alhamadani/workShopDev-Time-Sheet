@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+header {
+    margin: 0px;
+    border-bottom: 1px solid grey;
+}
+.upperNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+#mainProfile {
+    display: flex;
+}
+#profile {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.LoGo {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.dropdown {
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container1 {
+    width: 400px;
+    /* margin: 40px; */
+    margin-left: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.containerInfo {
+    width: 400px;
+    margin: 10px;
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid orange;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#timesheet-list {
+    margin-top: 20px;
+}
+
+.timesheet-item {
+    padding: 10px;
+    border-bottom: 1px solid orange;
+}
+
+.timesheet-item:last-child {
+    border-bottom: none;
+}
+
+#task,
+#description,
+#project,
+#hoursWorked,
+#date {
+    border: 1px solid orange;
+}
+
+.orange{
+        color: orange;
+}
+.orangeBorder {
+
+    border: 1px solid orange;
+}
+table{
+    border-collapse: collapse;
+}
+th, td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+tr{
+    border: 1px solid orange; 
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.input-fields {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-fields input {
+    margin-right: 10px;
+    width: 150px;
+}
